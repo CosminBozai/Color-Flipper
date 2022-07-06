@@ -1,5 +1,8 @@
 body {
   margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
@@ -8,6 +11,8 @@ main {
   align-items: center;
   justify-content: center;
   margin-top: 25vh;
+  /* Keeps the footer away when you resize the page */
+  margin-bottom: 38vh;
   font-family: Roboto, sans-serif;
   /* border: 3px solid black; */
   white-space: nowrap;
@@ -45,4 +50,14 @@ main div p {
 .flipButton:active {
   box-shadow: 0px 0px 2px 1px black;
   font-size: 17px;
+}
+
+footer {
+  background-color: #343434;
+  margin-top: auto;
+  padding: 4px 0 4px 0;
+  text-align: center;
+  font-family: Finlandica, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  color: white;
 }
