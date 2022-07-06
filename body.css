@@ -24,7 +24,7 @@ main {
 main div {
   margin-bottom: 50px;
   padding: 20px 40px 20px 40px;
-  background-color: #343434;
+  background-color: #231e8b;
   border: none;
   border-radius: 10px;
   font-size: 30px;
@@ -38,7 +38,7 @@ main div p {
 
 .flipButton {
   padding: 12px 20px 12px 20px;
-  background-color: #343434;
+  background-color: #231e8b;
   color: white;
   font-size: 16px;
   font-weight: bold;
@@ -53,7 +53,7 @@ main div p {
 }
 
 footer {
-  background-color: #343434;
+  background-color: #231e8b;
   margin-top: auto;
   padding: 4px 0 4px 0;
   text-align: center;
