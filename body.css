@@ -10,26 +10,26 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 25vh;
+  margin-top: 30vh;
   /* Keeps the footer away when you resize the page */
-  margin-bottom: 38vh;
+  margin-bottom: 150px;
   font-family: Roboto, sans-serif;
   /* border: 3px solid black; */
   white-space: nowrap;
   /* Makes the backgrount transparent but not the text */
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0);
 }
 
 /* Container for the text */
 main div {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   padding: 20px 40px 20px 40px;
-  background-color: #231e8b;
+  background-color: #585858;
   border: none;
   border-radius: 10px;
   font-size: 30px;
   font-weight: 500;
-  color: white;
+  color: #f7f7f7;
 }
 /* Text inside the main */
 main div p {
@@ -38,8 +38,8 @@ main div p {
 
 .flipButton {
   padding: 12px 20px 12px 20px;
-  background-color: #231e8b;
-  color: white;
+  background-color: #585858;
+  color: #f7f7f7;
   font-size: 16px;
   font-weight: bold;
   border: none;
@@ -48,16 +48,16 @@ main div p {
 }
 
 .flipButton:active {
-  box-shadow: 0px 0px 2px 1px black;
+  box-shadow: 0px 0px 2px 1px #bbbbbb;
   font-size: 17px;
 }
 
 footer {
-  background-color: #231e8b;
+  background-color: rgba(255, 255, 255, 0);
   margin-top: auto;
   padding: 4px 0 4px 0;
   text-align: center;
   font-family: Finlandica, Arial, Helvetica, sans-serif;
   font-weight: 500;
-  color: white;
+  color: #000000;
 }
