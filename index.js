@@ -27,5 +27,9 @@ function changeBackground() {
 let flip = document.getElementById("flipButton");
 flip.addEventListener("click", selectColor);
 flip.addEventListener("click", changeBackground);
+flip.addEventListener("click", seeColor);
 
 //Show what color the background is in whatColor
+function seeColor() {
+  document.getElementById("whatColor").innerHTML = randomColor.toUpperCase();
+}
