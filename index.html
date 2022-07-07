@@ -22,10 +22,11 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body id="body">
     <!--  Header - flexbox with 3 divs: -->
     <header>
       <label>Color Flipper</label>
+
       <!-- Section of white color in the middle, flexbox,
             contains 3 divs  -->
       <div class="middleSpace">
@@ -33,6 +34,7 @@
         <div class="redDot"></div>
         <div class="yellowDot"></div>
       </div>
+
       <!-- Section with the GitHub link -->
       <section>
         <div>Check this project on</div>
@@ -50,12 +52,16 @@
       <div>
         <p>Background color :</p>
         <!-- Output that shows the current background color -->
-        <output>#083ce6</output>
+        <output id="whatColor"></output>
       </div>
       <!-- Button to change the background color -->
-      <button class="flipButton">Flip the color!</button>
+      <button id="flipButton" class="flipButton">Flip the color!</button>
     </main>
+
     <!-- Footer -->
     <footer>© Bozai Cosmin</footer>
+
+    <!-- The script that changes the backgroung color when you press flipButton -->
+    <script src="index.js"></script>
   </body>
 </html>
