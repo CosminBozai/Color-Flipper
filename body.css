@@ -48,8 +48,7 @@ main div p {
 }
 
 .flipButton:active {
-  box-shadow: 0px 0px 2px 1px #bbbbbb;
-  font-size: 17px;
+  transform: scale(1.05);
 }
 
 footer {
