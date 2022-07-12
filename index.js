@@ -5,18 +5,16 @@ let randomColor;
 //By appending # at the start of the string it creates a random hex color
 function selectColor() {
   randomColor = "#";
-  let characters = "0123456789abcdef";
-  let charactersLength = characters.length;
+  const characters = "0123456789abcdef";
   for (let i = 0; i < 6; i++) {
     randomColor += characters.charAt(
-      Math.floor(Math.random() * charactersLength)
+      Math.floor(Math.random() * characters.length)
     );
   }
   return randomColor;
 }
 
 randomColor = selectColor();
-console.log(randomColor);
 
 //Function that changes the background color when called
 function changeBackground() {
@@ -24,7 +22,7 @@ function changeBackground() {
 }
 
 //Call the function when flipButton is pressed
-let flip = document.getElementById("flipButton");
+const flip = document.getElementById("flipButton");
 flip.addEventListener("click", selectColor);
 flip.addEventListener("click", changeBackground);
 flip.addEventListener("click", seeColor);
